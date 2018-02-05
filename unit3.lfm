@@ -1,0 +1,182 @@
+object Form3Index: TForm3Index
+  Left = 293
+  Height = 515
+  Top = 133
+  Width = 605
+  HorzScrollBar.Page = 604
+  VertScrollBar.Page = 488
+  ActiveControl = BitBtn1
+  Caption = 'Edit And Save Index File'
+  ClientHeight = 489
+  ClientWidth = 605
+  Menu = MainMenu1
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object Label1: TLabel
+    Left = 123
+    Height = 16
+    Top = 223
+    Width = 87
+    AutoSize = False
+    Caption = 'Quick Fileview'
+    Font.Height = -11
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 20
+    Height = 34
+    Top = 111
+    Width = 36
+    AutoSize = False
+    Caption = 'Insert'#10'Row'
+    Font.Height = -11
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 20
+    Height = 34
+    Top = 161
+    Width = 46
+    AutoSize = False
+    Caption = 'Delete '#10'Row'
+    Font.Height = -11
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 292
+    Height = 16
+    Top = 215
+    Width = 197
+    AutoSize = False
+    Caption = '( Press F3 to view file content. )'
+    Font.Height = -11
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 124
+    Height = 20
+    Top = 4
+    Width = 344
+    AutoSize = False
+    Caption = 'Keyword on left pane. Refers to file on the right pane.'
+    Font.Height = -11
+    ParentColor = False
+  end
+  object StringGrid1: TStringGrid
+    Left = 118
+    Height = 184
+    Top = 28
+    Width = 424
+    ColCount = 2
+    FixedColor = clBtnFace
+    FixedCols = 0
+    Font.Height = -11
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goEditing, goRowSelect, goAlwaysShowEditor, goDblClickAutoSize, goSmoothScroll]
+    RowCount = 1
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    TabStop = True
+    TitleFont.Height = -11
+    OnSelectCell = StringGrid1SelectCell
+    ColWidths = (
+      167
+      254
+    )
+    Cells = (
+      2
+      0
+      0
+      'Keyword (Modify)'
+      1
+      0
+      'Filename (Do not modify unless ... you know what are you doing.)'
+    )
+  end
+  object BitBtn1: TBitBtn
+    Left = 242
+    Height = 40
+    Top = 426
+    Width = 120
+    Caption = '&Close'
+    NumGlyphs = 0
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    Left = 122
+    Height = 156
+    Top = 248
+    Width = 420
+    ScrollBars = ssAutoBoth
+    TabOrder = 1
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 20
+    Height = 28
+    Hint = 'Insert this many rows.'
+    Top = 64
+    Width = 87
+    MaxValue = 0
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object BitBtn2: TBitBtn
+    Left = 67
+    Height = 37
+    Top = 108
+    Width = 40
+    Caption = '^R'
+    Font.Height = -12
+    NumGlyphs = 0
+    OnClick = BitBtn2Click
+    TabOrder = 4
+  end
+  object BitBtn3: TBitBtn
+    Left = 67
+    Height = 37
+    Top = 158
+    Width = 40
+    Caption = '^D'
+    Font.Height = -12
+    NumGlyphs = 0
+    OnClick = BitBtn3Click
+    TabOrder = 5
+  end
+  object MainMenu1: TMainMenu
+    left = 38
+    object MenuItem1: TMenuItem
+      Caption = 'File'
+      object MenuItem2: TMenuItem
+        Caption = 'View File'
+        ShortCut = 114
+        OnClick = MenuItem2Click
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Save'
+        ShortCut = 16467
+        OnClick = MenuItem3Click
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Insert Row'
+        ShortCut = 16466
+        OnClick = MenuItem4Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Delete Row'
+        ShortCut = 16452
+        OnClick = MenuItem5Click
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Close'
+        OnClick = MenuItem6Click
+      end
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Save file as'
+    left = 150
+    top = 78
+  end
+end

@@ -1,0 +1,34 @@
+object Form3: TForm3
+  Left = 540
+  Height = 80
+  Top = 248
+  Width = 293
+  HorzScrollBar.Page = 292
+  VertScrollBar.Page = 79
+  ActiveControl = Edit1
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Edit Keyword'
+  ClientHeight = 80
+  ClientWidth = 293
+  OnKeyDown = Edit1KeyDown
+  Position = poScreenCenter
+  object Label1: TLabel
+    Left = 32
+    Height = 32
+    Top = 3
+    Width = 205
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Type New Keyword And Press Enter.'#13#10'Press Esc To Cancel.'
+    Font.Height = -11
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 23
+    Top = 48
+    Width = 264
+    OnKeyDown = Edit1KeyDown
+    TabOrder = 0
+  end
+end

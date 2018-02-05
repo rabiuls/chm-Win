@@ -1,0 +1,55 @@
+object Form4: TForm4
+  Left = 475
+  Height = 332
+  Top = 183
+  Width = 432
+  HorzScrollBar.Page = 431
+  VertScrollBar.Page = 331
+  ActiveControl = Memo1
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'About Rahman CHM Maker.'
+  ClientHeight = 332
+  ClientWidth = 432
+  OnClose = FormClose
+  Position = poScreenCenter
+  object SpeedButton1: TSpeedButton
+    Left = 168
+    Height = 32
+    Top = 278
+    Width = 88
+    Caption = 'OK'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = SpeedButton1Click
+  end
+  object Memo1: TMemo
+    Left = 44
+    Height = 230
+    Top = 32
+    Width = 344
+    Font.Height = -12
+    Lines.Strings = (
+      'All praises to Allah.'
+      'Peace be upon Muhammad.'
+      ''
+      'Rahman CHM Maker.'
+      'Version 1.2'
+      'License: GPL'
+      ''
+      'Created on Lazarus IDE/ Free Pascal.'
+      'Based on the chm library by'
+      'Andrew Haines.'
+      ''
+      'Images used are from:'
+      'http://www.famfamfam.com/lab/icons/silk/'
+      ''
+      '- Rabiul Hassan Khan.'
+      'Chittagong, Bangladesh.'
+      'http://www.geocities.com/rabiul_prkp85/index.html'
+      'mail: rabiul_prkp85@yahoo.com'
+      'Feb 07, 2009.'
+    )
+    TabOrder = 0
+  end
+end

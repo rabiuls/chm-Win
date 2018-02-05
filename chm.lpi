@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="6"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value=".\"/>
+      <TargetFileExt Value=""/>
+      <Title Value="Rahman CHM Maker. v1.2"/>
+      <UseAppBundle Value="False"/>
+      <ActiveEditorIndexAtStart Value="5"/>
+    </General>
+    <VersionInfo>
+      <AutoIncrementBuild Value="True"/>
+      <CurrentVersionNr Value="1"/>
+      <CurrentBuildNr Value="111"/>
+      <ProjectVersion Value="0.0.0.2"/>
+      <FileDescription Value="Rahman CHM Maker"/>
+      <LegalCopyright Value="Rabiul Hassan Khan"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="$(TestDir)\publishedproject\"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="30">
+      <Unit0>
+        <Filename Value="chm.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="chm"/>
+        <CursorPos X="47" Y="34"/>
+        <TopLine Value="17"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit1.lrs"/>
+        <UnitName Value="Unit1"/>
+        <CursorPos X="88" Y="1004"/>
+        <TopLine Value="996"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="85"/>
+        <Bookmarks Count="3">
+          <Item0 X="68" Y="1017" ID="0"/>
+          <Item1 X="50" Y="855" ID="1"/>
+          <Item2 X="28" Y="660" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unit2.pas"/>
+        <ComponentName Value="Form2"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit2.lrs"/>
+        <UnitName Value="Unit2"/>
+        <CursorPos X="56" Y="157"/>
+        <TopLine Value="139"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="84"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="usr\lib\lazarus\lcl\include\treeview.inc"/>
+        <CursorPos X="31" Y="404"/>
+        <TopLine Value="391"/>
+        <UsageCount Value="8"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="usr\lib\lazarus\lcl\interfaces\gtk\gtk1object.inc"/>
+        <CursorPos X="1" Y="1372"/>
+        <TopLine Value="1364"/>
+        <UsageCount Value="8"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="usr\share\fpcsrc\rtl\objpas\sysutils\filutilh.inc"/>
+        <CursorPos X="14" Y="84"/>
+        <TopLine Value="76"/>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="usr\share\fpcsrc\rtl\unix\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <CursorPos X="21" Y="275"/>
+        <TopLine Value="270"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="usr\share\fpcsrc\rtl\objpas\sysutils\osutilsh.inc"/>
+        <CursorPos X="16" Y="33"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="6"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="usr\share\fpcsrc\rtl\objpas\sysutils\osutil.inc"/>
+        <CursorPos X="20" Y="196"/>
+        <TopLine Value="190"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="usr\share\fpcsrc\rtl\unix\bunxovlh.inc"/>
+        <CursorPos X="18" Y="40"/>
+        <TopLine Value="32"/>
+        <UsageCount Value="6"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="usr\share\fpcsrc\rtl\unix\bunxovl.inc"/>
+        <CursorPos X="10" Y="113"/>
+        <TopLine Value="105"/>
+        <UsageCount Value="6"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="fpc\2.2.0\source\rtl\inc\systemh.inc"/>
+        <CursorPos X="14" Y="469"/>
+        <TopLine Value="493"/>
+        <UsageCount Value="8"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="fpc\2.2.0\source\rtl\inc\system.inc"/>
+        <CursorPos X="1" Y="463"/>
+        <TopLine Value="463"/>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\chmfiftimain.pas"/>
+        <UnitName Value="chmFiftiMain"/>
+        <CursorPos X="1" Y="290"/>
+        <TopLine Value="282"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\chmfilewriter.pas"/>
+        <UnitName Value="chmfilewriter"/>
+        <CursorPos X="1" Y="89"/>
+        <TopLine Value="80"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\paslznonslide.pas"/>
+        <UnitName Value="paslznonslide"/>
+        <CursorPos X="1" Y="236"/>
+        <TopLine Value="228"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="unit3.pas"/>
+        <ComponentName Value="Form3Index"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit3.lrs"/>
+        <UnitName Value="Unit3"/>
+        <CursorPos X="1" Y="12"/>
+        <TopLine Value="12"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="usr\lib\lazarus\lcl\include\customform.inc"/>
+        <CursorPos X="43" Y="1468"/>
+        <TopLine Value="1455"/>
+        <UsageCount Value="13"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="usr\lib\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <CursorPos X="31" Y="6801"/>
+        <TopLine Value="6801"/>
+        <UsageCount Value="11"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="usr\lib\lazarus\lcl\interfaces\gtk2\interfaces.pas"/>
+        <UnitName Value="Interfaces"/>
+        <CursorPos X="30" Y="10"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="unit4.pas"/>
+        <ComponentName Value="Form3"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit4.lrs"/>
+        <UnitName Value="Unit4"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="15"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="unit5.pas"/>
+        <ComponentName Value="Form4"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit5.lrs"/>
+        <UnitName Value="unit5"/>
+        <CursorPos X="11" Y="32"/>
+        <TopLine Value="23"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="Credits-Scrolling\credits.pas"/>
+        <UnitName Value="Credits"/>
+        <CursorPos X="82" Y="10"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="12"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\Lin\chmfilewriter.pas"/>
+        <UnitName Value="chmfilewriter"/>
+        <CursorPos X="81" Y="18"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="12"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="usr\lib\lazarus\components\Credits-Scrolling\credits.pas"/>
+        <UnitName Value="Credits"/>
+        <CursorPos X="36" Y="451"/>
+        <TopLine Value="441"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="usr\lib\lazarus\lcl\intfgraphics.pas"/>
+        <UnitName Value="IntfGraphics"/>
+        <CursorPos X="24" Y="3008"/>
+        <TopLine Value="2998"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="chmfilewriter\fasthtmlparser.pas"/>
+        <UnitName Value="FastHTMLParser"/>
+        <CursorPos X="72" Y="15"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\Rahman-CHM\Rahman CHM Maker\Source\unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <UnitName Value="Unit1"/>
+        <CursorPos X="25" Y="1083"/>
+        <TopLine Value="1072"/>
+        <UsageCount Value="9"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="unit6.pas"/>
+        <ComponentName Value="Form5IndexStart"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="unit6.lrs"/>
+        <UnitName Value="Unit6"/>
+        <CursorPos X="49" Y="150"/>
+        <TopLine Value="134"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <CursorPos X="3" Y="1701"/>
+        <TopLine Value="1699"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit29>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value=".\Rahman.exe"/>
+    </Target>
+    <SearchPaths>
+      <OtherUnitFiles Value="chmfilewriter\"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
